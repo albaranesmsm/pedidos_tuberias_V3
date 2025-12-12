@@ -159,9 +159,7 @@ if disclaimer_text:
 # --- TÍTULO ---
 st.title("Pedido de tuberías y químicos")
 
-st.warning("⚠️ La cantidad indicada de las **tuberías** es en **METROS** y la cantidad indicada de los **químicos** es en **KILOGRAMOS**. "
-           "⚠️El químico GLICOL Anticong — Ref: 1601001 tenéis que solicitarlo por el momento a ALMACÉN CENTRAL"
-           "⚠️ No hay disponible quimicos de limpieza hasta renovación de compras")
+
 
 st.divider()
 
@@ -285,4 +283,5 @@ if st.session_state.mostrar_instrucciones:
 </ol>
 <p><b>IMPORTANTE:</b> Usa exactamente el destinatario y el asunto indicados para que se generen correctamente las OAs.</p>
 </div>
+
     """, unsafe_allow_html=True)
